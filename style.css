@@ -1,0 +1,36 @@
+body {
+  background-color: rgba(134, 227, 255, 0.856);
+}
+
+#imageClinicLogo {
+  height: 200px;
+  width: 300px;
+}
+
+#mainGridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  width: 1200px;
+}
+
+#doctorsTable {
+  background-color: black;
+}
+
+#doctorsTable th {
+  background-color: aqua;
+}
+
+#doctorsTable td {
+  background-color: white;
+  height: 20px;
+}
+
+#doctorsColumn1 {
+  width: 350px;
+}
+
+#doctorsColumn2 {
+  width: 250px;
+}

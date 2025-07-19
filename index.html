@@ -3,42 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Echo software</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="firstSection">
-      <h1>EcoSoft</h1>
-      <h3>CLINICA VETERINARIA INTEGRAL VET</h3>
-      <p>Foto de perfil</p>
-      <button class="imagesButtons">Archivo</button>
-      <button class="imagesButtons">Zoom</button>
-      <button class="imagesButtons">X</button>
-      <p>Firma</p>
-      <button class="imagesButtons">Archivo</button>
-      <button class="imagesButtons">Zoom</button>
-      <button class="imagesButtons">X</button>
-    </div>
+    <div id="mainGridContainer">
+      <div id="firstSection">
+        <img
+          rel="Clinic logo"
+          src="img/logointegral.jpg"
+          id="imageClinicLogo"
+        />
+        <h1>EcoSoft</h1>
+        <h3>CLINICA VETERINARIA INTEGRAL VET</h3>
+        <p>Foto de perfil</p>
+        <img rel="Profile photo" src="img/BLANK.JPG" id="imageProfilePhoto" />
+        <button class="imagesButtons">Archivo</button>
+        <button class="imagesButtons">Zoom</button>
+        <button class="imagesButtons">X</button>
+        <p>Firma</p>
+        <img rel="Signature photo" src="img/BLANK.JPG" id="imageSignature" />
+        <button class="imagesButtons">Archivo</button>
+        <button class="imagesButtons">Zoom</button>
+        <button class="imagesButtons">X</button>
+      </div>
 
-    <div id="secodSection">
-      <h2>Ecografistas</h2>
-    </div>
+      <div id="secodSection">
+        <h2>Ecografistas</h2>
+        <table id="doctorsTable">
+          <thead>
+            <tr>
+              <th id="doctorsColumn1">Nombre Veterinario</th>
+              <th id="doctorsColumn2">Nro. Matrícula o Colegio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
-    <div id="thirdSection">
-      <p>Serial Nro.</p>
-      <p>500</p>
-      <p>Dirección</p>
-      <input />
-      <p>Teléfonos</p>
-      <input />
-      <p>Introduzca su clave por favor</p>
-      <input />
-      <button id="exitButton">SALIR</button>
-    </div>
-    <div id="fourthSection">
-      <p>VERSIÓN CLÍNICAS</p>
-      <p>05/06/2025</p>
-      <p>Fecha en que se actualizo el exe:</p>
-      <p>01/06/2025</p>
+      <div id="thirdSection">
+        <p>Serial Nro.</p>
+        <p>500</p>
+        <p>Dirección</p>
+        <input />
+        <p>Teléfonos</p>
+        <input />
+        <p>Introduzca su clave por favor</p>
+        <input />
+        <button id="exitButton">SALIR</button>
+      </div>
+      <div id="fourthSection">
+        <p>VERSIÓN CLÍNICAS</p>
+        <p>05/06/2025</p>
+        <p>Fecha en que se actualizo el exe:</p>
+        <p>01/06/2025</p>
+      </div>
     </div>
   </body>
 </html>
