@@ -66,3 +66,11 @@ body {
 #thirdSection {
   background-color: white;
 }
+
+.lineThirdSection {
+  padding: 5px 0;
+}
+
+#formThirdSection {
+  padding: 10px 0;
+}
