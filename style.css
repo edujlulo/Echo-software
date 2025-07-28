@@ -1,5 +1,8 @@
 body {
   background-color: rgba(134, 227, 255, 0.856);
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 #imageClinicLogo {
@@ -74,14 +77,20 @@ body {
 
 #passwordThirdSection {
   justify-content: space-between;
+  align-items: center;
 }
 
 #inputPasswordThirdSection {
-  margin: 0 10px;
+  margin-left: 5px;
 }
 
 #serialThirdSection {
   justify-content: center;
+}
+
+#exitButton {
+  margin-left: auto;
+  margin-right: 20px;
 }
 
 #formThirdSection {
