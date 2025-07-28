@@ -72,8 +72,24 @@ body {
   padding: 5px 0;
 }
 
+#passwordThirdSection {
+  justify-content: space-between;
+}
+
+#inputPasswordThirdSection {
+  margin: 0 10px;
+}
+
+#serialThirdSection {
+  justify-content: center;
+}
+
 #formThirdSection {
   padding: 10px 0;
+}
+
+#inputPasswordThirdSection {
+  width: 60px;
 }
 
 h3 {
